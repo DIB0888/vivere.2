@@ -1,0 +1,405 @@
+
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img{
+        width: 200px;
+       
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar.navbar-light{
+        position: absolute;
+        top: -20px;
+    }
+}
+
+.language-switch {
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+.language-switch h3 {
+    margin-left: 10px; 
+    font-size: 19px;
+}
+
+.language-switch ul{
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.language-switch ul li {
+    margin-right: 10px; 
+}
+
+.cover{
+    position: relative;
+    width: 100%;
+    min-height: 25vh;
+    height: 27vw;
+    background-image: url(/images/header-pic.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover button{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+}
+
+.cover p{
+    display: block;
+    position: absolute;
+    left: 70%;
+    top: 60%;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 2px;
+    color:white
+}
+
+
+@media (max-width: 768px) {
+    .btn-primary {
+        font-size: 10px;
+        padding: 0.375rem 0.75rem; 
+        border-radius: 0.25rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    .cover p {
+        left: 66%;
+        top: 55%;
+        font-size: smaller; 
+
+    }
+}
+
+.main-events {
+    position: relative;
+    margin-top: 30px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.ev-im-1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 4vw;
+    overflow: hidden;
+}
+
+.ev {
+    position: relative;
+    width: 46%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8vw;
+    top: 3vw;
+    left: 2vw;
+}
+
+.ev2 {
+    position: relative;
+    width: 46%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8vw;
+    top: 3vw;
+    left: 2vw;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-150%, -50%);
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px){
+    .ev img{
+        width: 300px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+       
+    }
+} 
+
+@media (max-width: 768px){
+    .ev2 img{
+        width: 300px;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+    }
+} 
+
+@media (max-width: 768px){
+    .ev-im-1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10vw;
+    background-color: white;
+    padding-left: 0;
+}
+    }
+
+@media (max-width: 768px){
+    .ev  {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20vw;
+    }
+}
+
+
+@media (max-width: 768px){
+    .ev2  {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20vw;
+    }
+}
+
+@media (max-width: 768px){
+    .text-overlay{
+        
+    position: relative;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+        
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+    .carousel {
+        display: none;
+
+    }
+ 
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        
+        justify-content: center;
+    }
+    
+    .card {
+        margin: auto; 
+    }
+    
+}
+    
+
+@media (max-width: 768px) {
+    .carousel-inner {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-inline-end: auto;
+        margin-inline-start: 10px;
+        width: 100%;
+    }
+ 
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+
+
+
+@media (max-width: 768px){
+    .past-event {
+        
+        position: absolute;
+        left: 20%;
+        top: 125%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row.g-4 {
+        display: none;
+    }
+}
+
+.card {
+    border: none; 
+    box-shadow: none; 
+}
+
+
+
+.footer-area{
+    background: linear-gradient(#1c0423, #38092a)
+    
+}
+
+footer .logonav{
+    position: relative;
+    left: 2%;
+    
+}
+
+.kontakt{
+    font-size: large;
+    color: white;
+    position: relative;
+    top: 50%;
+    display: flex;
+    
+}
+
+.kontakt p {
+    margin-right: 50px; 
+}
+
+.kontakt p:last-child {
+    margin-right: 0; 
+}
+
+
+.social-media{
+    position: relative;
+    top: 25%;
+   display: flex;
+}
+
+.kuka{
+    color: white;
+}
+
+
+.footer-area{
+    margin-top: 10%;
+
+}
+
+@media (max-width: 768px) {
+    .footer-area{
+        margin-top: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    } 
+}
+
+@media (max-width: 768px) {
+    .logonav img{
+        position: relative;
+        left: 13%;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .single-footer-widget {
+        
+        
+        text-align: center;
+    }
+    
+    .social-media img {
+        margin: 5px;
+        width: 50px;
+    }
+}
+@media (max-width: 768px){
+    .row.g-5{
+        width: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .col-md-4{
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-media{
+        position: relative;
+        left: 18%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .kontakt {
+        position: relative;
+        text-align: center; 
+    }
+
+    .kontakt p {
+        font-size: 14px;
+        display: block;
+        margin: 0.5rem 0; 
+        position: relative;
+        left: 50%; 
+        transform: translateX(-50%); 
+        text-align: center; 
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    .kuka{
+        font-size:xx-small;
+        position: relative;
+        left: 20%;
+        
+    }
+}
